@@ -14,10 +14,12 @@ import {
   faTwitter,
   faMedium,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 function Sidebar({ open, func }) {
   const clickHandler = (e) => {
     document.querySelector(".active").classList.remove("active");
     e.target.classList.add("active");
+    func(false);
   };
   return (
     <>
@@ -28,26 +30,26 @@ function Sidebar({ open, func }) {
       <div className={`sidebar ${open ? "open-sidebar" : ""}`}>
         <h1 className={`display`}>TITANO</h1>
         <div className="top-sidebar">
-          <div onClick={clickHandler} className="row-link active">
+          <Link to={"/"} onClick={clickHandler} className="row-link active">
             <FontAwesomeIcon icon={faLayerGroup} />
             <p>Dashboard</p>
-          </div>
-          <div onClick={clickHandler} className="row-link">
+          </Link>
+          <Link to={"/account"} onClick={clickHandler} className="row-link">
             <FontAwesomeIcon icon={faCircleUser} />
             <p>Account</p>
-          </div>
-          <div onClick={clickHandler} className="row-link">
+          </Link>
+          <Link to={"/calculator"} onClick={clickHandler} className="row-link">
             <FontAwesomeIcon icon={faCalculator} />
             <p>Calculator</p>
-          </div>
-          <div onClick={clickHandler} className="row-link">
+          </Link>
+          <a href="#" className="row-link">
             <FontAwesomeIcon icon={faBolt} />
             <p>Swap</p>
-          </div>
-          <div onClick={clickHandler} className="row-link">
+          </a>
+          <a href="#" className="row-link">
             <FontAwesomeIcon icon={faBook} />
             <p>Docs</p>
-          </div>
+          </a>
         </div>
         <div className="bottom-sidebar">
           <a href="#">

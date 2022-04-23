@@ -1,0 +1,135 @@
+import React, { useState } from "react";
+import "./Calculator.css";
+// Using an ES6 transpiler like Babel
+import Slider from "react-rangeslider";
+
+// To include the default styles
+import "react-rangeslider/lib/index.css";
+function Calculator() {
+  const [value, setValue] = useState(1);
+  const [amount, setAmount] = useState(0);
+  const [apy, setApy] = useState(383025.8);
+  const [purchase, setPurchase] = useState(206.53);
+  const [future, setFuture] = useState(206.53);
+
+  const handleChange = (value) => {
+    setValue(value);
+  };
+  const inputHandler = (e) => {
+    const set = e.target.dataset.val;
+    switch (set) {
+      case "amount":
+        setAmount(e.target.value);
+        break;
+      case "apy":
+        setApy(e.target.value);
+        break;
+      case "purchase":
+        setPurchase(e.target.value);
+        break;
+      case "future":
+        setFuture(e.target.value);
+        break;
+
+      default:
+        break;
+    }
+    console.log();
+  };
+  return (
+    <div className="calculator dashboard">
+      <div className="top-calc">
+        <h1>Calculator</h1>
+        <p>Estimate your returns</p>
+      </div>
+      <div className="row-col calc-col">
+        <div className="col">
+          <h1>SAFUU Price</h1>
+          <p>$206.43</p>
+        </div>
+        <div className="col">
+          <h1>Current APY</h1>
+          <p>383,025.8%</p>
+        </div>
+        <div className="col">
+          <h1>Your SAFUU Balance</h1>
+          <p>0 SAFUU</p>
+        </div>
+      </div>
+      <div className="input-grid">
+        <div className="input-div">
+          <h2>SAFUU Amount</h2>
+          <div className="input">
+            <input
+              data-val={"amount"}
+              onChange={inputHandler}
+              value={amount}
+              type="number"
+            />
+            <h1>MAX</h1>
+          </div>
+        </div>
+        <div className="input-div">
+          <h2>APY (%)</h2>
+          <div className="input">
+            <input
+              onChange={inputHandler}
+              data-val={"apy"}
+              value={apy}
+              type="number"
+            />
+            <h1>CURRENT</h1>
+          </div>
+        </div>
+        <div className="input-div">
+          <h2>SAFUU price at purchase ($)</h2>
+          <div className="input">
+            <input
+              onChange={inputHandler}
+              data-val={"purchase"}
+              value={purchase}
+              type="number"
+            />
+            <h1>CURRENT</h1>
+          </div>
+        </div>
+        <div className="input-div">
+          <h2>Future SAFUU market price ($)</h2>
+          <div className="input">
+            <input
+              onChange={inputHandler}
+              data-val={"future"}
+              value={future}
+              type="number"
+            />
+            <h1>CURRENT</h1>
+          </div>
+        </div>
+      </div>
+      <div className="slider">
+        <h1>{value}</h1>
+        <Slider min={1} max={365} value={value} onChange={handleChange} />
+      </div>
+      <div className="estimates">
+        <div className="row-estimate">
+          <p>Your initial investment</p>
+          <p>$0</p>
+        </div>
+        <div className="row-estimate">
+          <p>Current wealth</p>
+          <p>$0</p>
+        </div>
+        <div className="row-estimate">
+          <p>SAFUU rewards estimation</p>
+          <p>0 SAFUU</p>
+        </div>
+        <div className="row-estimate">
+          <p>Potential return</p>
+          <p>$0</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Calculator;

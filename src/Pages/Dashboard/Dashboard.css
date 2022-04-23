@@ -33,6 +33,7 @@
 .col h1 {
   color: rgb(208, 220, 232);
   font-size: 1.7rem;
+  font-weight: 500;
 }
 .col p {
   font-size: 1.2rem;
