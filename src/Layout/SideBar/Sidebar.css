@@ -8,6 +8,7 @@
   padding-left: 3rem;
   height: 100%;
   gap: 60px;
+  box-shadow: 5px 0 9px -5px rgba(0, 0, 0, 0.6);
   overflow-y: auto;
 }
 .top-sidebar {
@@ -122,6 +123,7 @@
   }
   .right-div {
     flex: none;
+    width: 100%;
   }
   .open-overlay {
     display: block;
