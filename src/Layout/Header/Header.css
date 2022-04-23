@@ -90,3 +90,28 @@
 .top-link:hover {
   background-color: #31333b;
 }
+.desktop {
+  display: block;
+}
+.mobile {
+  display: none;
+  font-size: 1.8rem;
+  color: #c4d0dc;
+  cursor: pointer;
+}
+@media screen and (max-width: 1046px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+@media screen and (max-width: 488px) {
+  .header {
+    padding: 0rem 1rem;
+  }
+  .link {
+    display: none;
+  }
+}

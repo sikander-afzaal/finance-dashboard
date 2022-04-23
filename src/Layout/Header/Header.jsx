@@ -4,12 +4,18 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleInfo,
   faArrowUpRightFromSquare,
+  faBars,
 } from "@fortawesome/free-solid-svg-icons";
-function Header() {
+function Header({ func }) {
   return (
     <div className="header">
       <div className="left-header">
-        <h1>TITANO</h1>
+        <h1 className="desktop">TITANO</h1>
+        <FontAwesomeIcon
+          onClick={() => func(true)}
+          icon={faBars}
+          className="mobile"
+        />
       </div>
       <div className="right-header">
         <div className="link drop">
