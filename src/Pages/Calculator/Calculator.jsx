@@ -11,6 +11,10 @@ function Calculator() {
   const [apy, setApy] = useState(383025.8);
   const [purchase, setPurchase] = useState(206.53);
   const [future, setFuture] = useState(206.53);
+  const [initial, setInitial] = useState(0);
+  const [currentWealth, setCurrentWealth] = useState(0);
+  const [estimate, setEstimate] = useState(0);
+  const [potential, setPotential] = useState(0);
 
   const handleChange = (value) => {
     setValue(value);
@@ -113,19 +117,19 @@ function Calculator() {
       <div className="estimates">
         <div className="row-estimate">
           <p>Your initial investment</p>
-          <p>$0</p>
+          <p>${initial}</p>
         </div>
         <div className="row-estimate">
           <p>Current wealth</p>
-          <p>$0</p>
+          <p>${currentWealth}</p>
         </div>
         <div className="row-estimate">
           <p>SAFUU rewards estimation</p>
-          <p>0 SAFUU</p>
+          <p>{estimate} SAFUU</p>
         </div>
         <div className="row-estimate">
           <p>Potential return</p>
-          <p>$0</p>
+          <p>${potential}</p>
         </div>
       </div>
     </div>
