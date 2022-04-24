@@ -6,11 +6,12 @@ import {
   faArrowUpRightFromSquare,
   faBars,
 } from "@fortawesome/free-solid-svg-icons";
+import logo from "../../Assets/logo.png";
 function Header({ func }) {
   return (
     <div className="header">
       <div className="left-header">
-        <h1 className="desktop">TITANO</h1>
+        <img src={logo} className={"desktop logo"} alt="" />
         <FontAwesomeIcon
           onClick={() => func(true)}
           icon={faBars}
@@ -21,7 +22,7 @@ function Header({ func }) {
         <div className="link drop">
           <div className="top-link">
             <FontAwesomeIcon icon={faCircleInfo} />
-            <p>TITANO $0.0771 USD</p>
+            <p>$OP $0.0771 USD</p>
           </div>
 
           <div className="dropdown">

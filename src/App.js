@@ -5,28 +5,29 @@ import Header from "./Layout/Header/Header";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import Account from "./Pages/Account/Account";
 import Calculator from "./Pages/Calculator/Calculator";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
+import { AnimatePresence } from "framer-motion";
 function App() {
   const [open, setOpen] = useState(false);
   const openHeader = (val) => {
     setOpen(val);
   };
-
+  const location = useLocation();
   return (
     <div className="App">
-      <Router>
-        <Header func={openHeader} />
-        <div className="bottom-App">
-          <Sidebar func={openHeader} open={open} />
-          <div className="right-div">
-            <Routes>
+      <Header func={openHeader} />
+      <div className="bottom-App">
+        <Sidebar func={openHeader} open={open} />
+        <div className="right-div">
+          <AnimatePresence exitBeforeEnter>
+            <Routes key={location.pathname} location={location}>
               <Route path="/" element={<Dashboard />}></Route>
               <Route path="/account" element={<Account />}></Route>
               <Route path="/calculator" element={<Calculator />}></Route>
             </Routes>
-          </div>
+          </AnimatePresence>
         </div>
-      </Router>
+      </div>
     </div>
   );
 }

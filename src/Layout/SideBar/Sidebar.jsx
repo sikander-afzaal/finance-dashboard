@@ -15,6 +15,7 @@ import {
   faMedium,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import logo from "../../Assets/logo.png";
 function Sidebar({ open, func }) {
   const clickHandler = (e) => {
     document.querySelector(".active").classList.remove("active");
@@ -49,7 +50,7 @@ function Sidebar({ open, func }) {
         className={`overlay ${open ? "open-overlay" : ""}`}
       ></div>
       <div className={`sidebar ${open ? "open-sidebar" : ""}`}>
-        <h1 className={`display`}>TITANO</h1>
+        <img src={logo} className={"display logo"} alt="" />
         <div className="top-sidebar">
           <Link
             to={"/"}
@@ -75,11 +76,19 @@ function Sidebar({ open, func }) {
             <FontAwesomeIcon icon={faCalculator} />
             <p>Calculator</p>
           </Link>
-          <a href="#" className="row-link">
+          <a
+            target={"blank"}
+            href="https://pancakeswap.finance/swap?outputCurrency=0xd87fce0d8d6d8a38a2d808081fcfa79e78ba5a4a"
+            className="row-link"
+          >
             <FontAwesomeIcon icon={faBolt} />
             <p>Swap</p>
           </a>
-          <a href="#" className="row-link">
+          <a
+            target={"blank"}
+            href="https://orcaprotocol.gitbook.io/orcaprotocolbsc/"
+            className="row-link"
+          >
             <FontAwesomeIcon icon={faBook} />
             <p>Docs</p>
           </a>
