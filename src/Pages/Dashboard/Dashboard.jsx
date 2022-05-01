@@ -51,6 +51,20 @@ function Dashboard() {
             <p>$2,178,652</p>
           </div>
         </div>
+        <div className="row-col">
+          <div className="col">
+            <h1># Value of FirePit</h1>
+            <p>209,740.67 $OP</p>
+          </div>
+          <div className="col">
+            <h1>$ Value of FirePit</h1>
+            <p>$34,324,962</p>
+          </div>
+          <div className="col">
+            <h1>% FirePit : Supply</h1>
+            <p>16.43%</p>
+          </div>
+        </div>
       </div>
     </AnimatedPage>
   );
