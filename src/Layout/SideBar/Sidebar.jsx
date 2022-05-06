@@ -100,7 +100,7 @@ function Sidebar({ open, func }) {
             className="row-link view-link"
           >
             <FontAwesomeIcon icon={faEye} />
-            <p>View Orca</p>
+            <p>View Orcas</p>
           </Link>
           <a
             target={"blank"}
