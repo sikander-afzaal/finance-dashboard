@@ -1,0 +1,84 @@
+.mint {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  flex-direction: column;
+}
+.logo-mint {
+  margin-bottom: 2rem;
+  max-width: 350px;
+  object-fit: contain;
+}
+.mint h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+.mint p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: white;
+  width: 70%;
+  margin-top: 1rem;
+}
+.additon-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+.calc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.calc p {
+  font-size: 3rem;
+}
+.plus,
+.minus {
+  font-size: 2.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+.mint-btn {
+  padding: 11px 60px;
+  font-size: 1.3rem;
+  border-radius: 7px;
+  background-image: linear-gradient(170deg, #093d85 0%, #62af87 77%);
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 1142px) {
+  .mint p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .mint {
+    padding-left: 2rem;
+  }
+}
+@media screen and (max-width: 448px) {
+  .mint {
+    padding-left: 0rem;
+    align-items: center;
+    padding-top: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .additon-div {
+    justify-content: center;
+  }
+  .logo-mint {
+    max-width: 300px;
+  }
+}

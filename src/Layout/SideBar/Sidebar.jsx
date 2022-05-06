@@ -7,6 +7,8 @@ import {
   faBolt,
   faCalculator,
   faBook,
+  faEye,
+  faCartArrowDown,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faDiscord,
@@ -36,6 +38,14 @@ function Sidebar({ open, func }) {
       case "/account":
         document.querySelector(".active").classList.remove("active");
         document.querySelector(".account-link").classList.add("active");
+        break;
+      case "/mint":
+        document.querySelector(".active").classList.remove("active");
+        document.querySelector(".mint-link").classList.add("active");
+        break;
+      case "/view":
+        document.querySelector(".active").classList.remove("active");
+        document.querySelector(".view-link").classList.add("active");
         break;
 
       default:
@@ -75,6 +85,22 @@ function Sidebar({ open, func }) {
           >
             <FontAwesomeIcon icon={faCalculator} />
             <p>Calculator</p>
+          </Link>
+          <Link
+            to={"/mint"}
+            onClick={clickHandler}
+            className="row-link mint-link"
+          >
+            <FontAwesomeIcon icon={faCartArrowDown} />
+            <p>Mint Orca</p>
+          </Link>
+          <Link
+            to={"/view"}
+            onClick={clickHandler}
+            className="row-link view-link"
+          >
+            <FontAwesomeIcon icon={faEye} />
+            <p>View Orca</p>
           </Link>
           <a
             target={"blank"}

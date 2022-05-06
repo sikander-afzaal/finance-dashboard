@@ -7,6 +7,8 @@ import Account from "./Pages/Account/Account";
 import Calculator from "./Pages/Calculator/Calculator";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
+import Mint from "./Pages/Mint/Mint";
+import View from "./Pages/View/View";
 function App() {
   const [open, setOpen] = useState(false);
   const openHeader = (val) => {
@@ -24,6 +26,8 @@ function App() {
               <Route path="/" element={<Dashboard />}></Route>
               <Route path="/account" element={<Account />}></Route>
               <Route path="/calculator" element={<Calculator />}></Route>
+              <Route path="/mint" element={<Mint />}></Route>
+              <Route path="/view" element={<View />}></Route>
             </Routes>
           </AnimatePresence>
         </div>
