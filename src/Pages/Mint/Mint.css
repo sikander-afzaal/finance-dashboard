@@ -3,10 +3,10 @@
   justify-content: flex-start;
   align-items: flex-start;
   width: 100%;
-  height: 100%;
   padding-left: 4rem;
-  padding-top: 4rem;
   flex-direction: column;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 .logo-mint {
   margin-bottom: 2rem;
@@ -18,11 +18,23 @@
   font-size: 2.5rem;
 }
 .mint p {
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: 1.2rem;
   color: white;
   width: 70%;
-  margin-top: 1rem;
+  margin: 10px 0rem;
+}
+.mint ul {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  list-style-position: inside;
+}
+.mint ul li {
+  font-size: 1rem;
+  color: white;
 }
 .additon-div {
   display: flex;
@@ -74,6 +86,12 @@
     padding-top: 2rem;
     text-align: center;
     padding-bottom: 2rem;
+  }
+  .mint ul {
+    align-items: center;
+  }
+  .mint ul li {
+    text-align: center;
   }
   .additon-div {
     justify-content: center;

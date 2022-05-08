@@ -23,15 +23,30 @@ function Mint() {
       <div className="mint">
         <img src={logo} alt="" className="logo-mint" />
         <h1>Mint an ORCA</h1>
+        <p>1000 “killer whales”</p>
+        <p>1 of 3 collections released over the next 12 months</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-          delectus placeat ad vel nemo magnam unde temporibus impedit ipsum
-          possimus veniam, commodi error hic consectetur aperiam odio quaerat.
-          Veritatis nam itaque autem quisquam, doloribus eos quam vitae magnam
-          incidunt, ad quis eius odio esse, cum necessitatibus blanditiis amet
-          explicabo soluta!
+          Collect one of each to unlock your pass into our play to earn game
         </p>
-
+        <ul>
+          <li>20% reflections to holders </li>
+          <li>20% charity donation</li>
+          <li>15% treasury</li>
+          <li>30% team</li>
+          <li>15% game rewards</li>
+        </ul>
+        <h1>NFT Pricing</h1>
+        <p>Based on a bonding curve</p>
+        <ul>
+          <li>0-50 # Marketing</li>
+          <li>50-100 # 0.1 bnb</li>
+          <li>100-200 # 0.2 bnb</li>
+          <li>200-300 # 0.3 bnb</li>
+          <li>300-400 # 0.4 bnb</li>
+          <li>400-500 # 0.5 bnb</li>
+          <li>500-750 # 0.75 bnb</li>
+          <li> 750-1000 # 1 bnb</li>
+        </ul>
         <div className="additon-div">
           <div className="calc">
             <p onClick={clickHandlerMinus} className="minus">
