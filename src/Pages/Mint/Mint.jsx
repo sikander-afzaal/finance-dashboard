@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Mint.css";
 import AnimatedPage from "../../Components/AnimatedPage";
 import vid from "../../Assets/vid.mp4";
-import item from "../../Assets/mask.png";
+import item from "../../Assets/orca.png";
 function Mint() {
   const [array, setArray] = useState([1]);
   const clickHandlerMinus = (e) => {
