@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Mint.css";
 import AnimatedPage from "../../Components/AnimatedPage";
-import logo from "../../Assets/logo.png";
+import vid from "../../Assets/vid.mp4";
 import item from "../../Assets/mask.png";
 function Mint() {
   const [array, setArray] = useState([1]);
@@ -28,7 +28,14 @@ function Mint() {
         <p>
           Collect one of each to unlock your pass into our play to earn game
         </p>
-        <img className="flip" src={logo} alt="" />
+        <video
+          src={vid}
+          className={"flip"}
+          controls={false}
+          loop
+          autoPlay
+          muted
+        />
         <div className="additon-div">
           <div className="calc">
             <p onClick={clickHandlerMinus} className="minus">
