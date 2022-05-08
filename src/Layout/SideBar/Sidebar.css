@@ -20,7 +20,7 @@
   gap: 30px;
 }
 .row-link {
-  width: 60%;
+  width: 80%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -85,15 +85,24 @@
 }
 @media screen and (max-width: 1570px) {
   .row-link {
-    width: 80%;
+    width: 90%;
   }
 }
-@media screen and (max-width: 1306px) {
+@media screen and (max-width: 1360px) {
   .row-link {
-    width: 90%;
+    font-size: 1rem;
   }
   .sidebar {
     padding-left: 1.5rem;
+  }
+}
+@media screen and (max-width: 1162px) {
+  .row-link {
+    font-size: 1rem;
+    width: 95%;
+  }
+  .sidebar {
+    padding-left: 0.5rem;
   }
 }
 @media screen and (max-width: 1046px) {
@@ -115,11 +124,16 @@
   }
   .row-link {
     width: 360px;
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
   }
   .display {
     display: block;
     padding-left: 20px;
     font-size: 3rem;
+  }
+  .bottom-sidebar {
+    padding-left: 1.5rem;
   }
   .right-div {
     flex: none;

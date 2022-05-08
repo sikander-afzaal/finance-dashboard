@@ -92,7 +92,7 @@ function Sidebar({ open, func }) {
             className="row-link mint-link"
           >
             <FontAwesomeIcon icon={faCartArrowDown} />
-            <p>Mint Orca</p>
+            <p>Mint Killer whales</p>
           </Link>
           <Link
             to={"/view"}
@@ -100,7 +100,7 @@ function Sidebar({ open, func }) {
             className="row-link view-link"
           >
             <FontAwesomeIcon icon={faEye} />
-            <p>View Orcas</p>
+            <p>View Killer whales</p>
           </Link>
           <a
             target={"blank"}
