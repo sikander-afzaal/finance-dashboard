@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Mint.css";
 import AnimatedPage from "../../Components/AnimatedPage";
 import logo from "../../Assets/logo.png";
+import item from "../../Assets/mask.png";
 function Mint() {
   const [array, setArray] = useState([1]);
   const clickHandlerMinus = (e) => {
@@ -21,46 +22,49 @@ function Mint() {
   return (
     <AnimatedPage>
       <div className="mint">
-        <div className="left-mint">
-          <h1>Mint your killer whale</h1>
-          <p>2500 “killer whales”</p>
-          <p>1 of 3 collections released over the next 12 months</p>
-          <p>
-            Collect one of each to unlock your pass into our play to earn game
-          </p>
-          <h1 style={{ marginTop: "20px" }}>Killerwhale Club NFTs</h1>
-          <ul>
-            <li>20% reflections to holders </li>
-            <li>20% charity (Ocean plastic removal) </li>
-            <li>15% treasury (used to deepen $OP LP)</li>
-            <li>20% devfunds+marketing $OP </li>
-            <li>10% development +marketing Protoverse x Orca Fund:</li>
-            <li>15% play to earn developement</li>
-          </ul>
-          <h1 style={{ marginTop: "20px" }}>NFT Pricing</h1>
-          <p>Bonding Curve Price Model:</p>
-          <ul>
-            <li>0-50 # Marketing</li>
-            <li>50-1000 # 0.11 bnb</li>
-            <li>1000-1750 # 0.22 bnb</li>
-            <li>1750-2500 # 0.33 bnb</li>
-          </ul>
-          <div className="additon-div">
-            <div className="calc">
-              <p onClick={clickHandlerMinus} className="minus">
-                -
-              </p>
-              <p className="number">{array.length}</p>
-              <p onClick={clickHandlerPlus} className="plus">
-                +
-              </p>
-            </div>
+        <h1>Mint your killer whale</h1>
+        <p>2500 “killer whales”</p>
+        <p>1 of 3 collections released over the next 12 months</p>
+        <p>
+          Collect one of each to unlock your pass into our play to earn game
+        </p>
+        <img className="flip" src={logo} alt="" />
+        <div className="additon-div">
+          <div className="calc">
+            <p onClick={clickHandlerMinus} className="minus">
+              -
+            </p>
+            <p className="number">{array.length}</p>
+            <p onClick={clickHandlerPlus} className="plus">
+              +
+            </p>
           </div>
-          <button className="mint-btn">Mint</button>
         </div>
-        <div className="right-mint">
-          <img src={logo} alt="" />
+        <div className="item_div">
+          {array.map((elem, index) => {
+            return (
+              <img className="anim-left" key={index} src={item} alt="..." />
+            );
+          })}
         </div>
+        <button className="mint-btn">Mint</button>
+        <h1 style={{ marginTop: "20px" }}>Killerwhale Club NFTs</h1>
+        <ul>
+          <li>20% reflections to holders </li>
+          <li>20% charity (Ocean plastic removal) </li>
+          <li>15% treasury (used to deepen $OP LP)</li>
+          <li>20% devfunds+marketing $OP </li>
+          <li>10% development +marketing Protoverse x Orca Fund:</li>
+          <li>15% play to earn developement</li>
+        </ul>
+        <h1 style={{ marginTop: "20px" }}>NFT Pricing</h1>
+        <p>Bonding Curve Price Model:</p>
+        <ul>
+          <li>0-50 # Marketing</li>
+          <li>50-1000 # 0.11 bnb</li>
+          <li>1000-1750 # 0.22 bnb</li>
+          <li>1750-2500 # 0.33 bnb</li>
+        </ul>
       </div>
     </AnimatedPage>
   );

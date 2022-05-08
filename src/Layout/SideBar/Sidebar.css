@@ -21,10 +21,8 @@
 }
 .row-link {
   width: 80%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: 20px 1fr;
   color: #c4d1dc;
   text-decoration: none;
   font-size: 1.2rem;
@@ -34,12 +32,15 @@
   transition: all 0.4s ease-in-out;
   cursor: pointer;
   border: 1px solid transparent;
+  column-gap: 10px;
 }
 .row-link p,
 .row-link svg {
   pointer-events: none;
 }
-
+.row-link svg {
+  width: 100%;
+}
 .active {
   border-color: #24dbaf10;
   background-color: transparent;
