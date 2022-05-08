@@ -1,12 +1,29 @@
 .mint {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  padding-left: 4rem;
-  flex-direction: column;
   padding-bottom: 2rem;
   padding-top: 2rem;
+  padding-inline: 2rem;
+}
+.left-mint {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 0.6;
+
+  flex-direction: column;
+}
+.right-mint {
+  flex: 0.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-mint img {
+  max-width: 100%;
+  object-fit: contain;
 }
 .logo-mint {
   margin-bottom: 2rem;
@@ -20,7 +37,7 @@
 .mint p {
   font-size: 1.2rem;
   color: white;
-  width: 70%;
+  width: 100%;
   margin: 10px 0rem;
 }
 .mint ul {
@@ -69,23 +86,24 @@
   cursor: pointer;
   margin-top: 2rem;
 }
-@media screen and (max-width: 1142px) {
-  .mint p {
-    width: 90%;
-  }
-}
+
 @media screen and (max-width: 1030px) {
   .mint {
-    padding-left: 2rem;
-  }
-}
-@media screen and (max-width: 448px) {
-  .mint {
     padding-left: 0rem;
+    flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
+    gap: 4rem;
+  }
+  .left-mint {
+    align-items: center;
+    flex: none;
+    width: 90%;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-left: 0px;
+  }
+  .right-mint {
+    flex: none;
+    width: 90%;
   }
   .mint ul {
     align-items: center;
@@ -95,6 +113,15 @@
   }
   .additon-div {
     justify-content: center;
+  }
+}
+@media screen and (max-width: 448px) {
+  .mint {
+    padding-left: 0rem;
+    align-items: center;
+    padding-top: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
   }
   .logo-mint {
     max-width: 300px;
