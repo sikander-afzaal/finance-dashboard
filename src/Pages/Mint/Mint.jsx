@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Mint.css";
 import AnimatedPage from "../../Components/AnimatedPage";
-import vid from "../../Assets/vid.mp4";
 import gif from "../../Assets/gif.gif";
 import item from "../../Assets/orca.png";
 function Mint() {
@@ -29,26 +28,23 @@ function Mint() {
         <p>
           Collect one of each to unlock your pass into our play to earn game
         </p>
-        {/* <video
-          src={vid}
-          className={"flip"}
-          controls={false}
-          loop
-          autoPlay
-          muted
-        /> */}
+
         <img src={gif} alt="" className="flip" />
-        <div className="additon-div">
-          <div className="calc">
-            <p onClick={clickHandlerMinus} className="minus">
-              -
-            </p>
-            <p className="number">{array.length}</p>
-            <p onClick={clickHandlerPlus} className="plus">
-              +
-            </p>
+        <div className="row-add">
+          <div className="additon-div">
+            <div className="calc">
+              <p onClick={clickHandlerMinus} className="minus">
+                -
+              </p>
+              <p className="number">{array.length}</p>
+              <p onClick={clickHandlerPlus} className="plus">
+                +
+              </p>
+            </div>
           </div>
+          <button className="mint-btn">Mint</button>
         </div>
+
         <div className="item_div">
           {array.map((elem, index) => {
             return (
@@ -56,7 +52,6 @@ function Mint() {
             );
           })}
         </div>
-        <button className="mint-btn">Mint</button>
         <h1 style={{ marginTop: "20px" }}>Killerwhale Club NFTs</h1>
         <ul>
           <li>20% reflections to holders </li>
