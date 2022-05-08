@@ -28,24 +28,22 @@ function Mint() {
           <p>
             Collect one of each to unlock your pass into our play to earn game
           </p>
+          <h1 style={{ marginTop: "20px" }}>Killerwhale Club NFTs</h1>
           <ul>
             <li>20% reflections to holders </li>
-            <li>20% charity donation</li>
-            <li>15% treasury</li>
-            <li>30% team</li>
-            <li>15% game rewards</li>
+            <li>20% charity (Ocean plastic removal) </li>
+            <li>15% treasury (used to deepen $OP LP)</li>
+            <li>20% devfunds+marketing $OP </li>
+            <li>10% development +marketing Protoverse x Orca Fund:</li>
+            <li>15% play to earn developement</li>
           </ul>
-          <h1>NFT Pricing</h1>
-          <p>Based on a bonding curve</p>
+          <h1 style={{ marginTop: "20px" }}>NFT Pricing</h1>
+          <p>Bonding Curve Price Model:</p>
           <ul>
             <li>0-50 # Marketing</li>
-            <li>50-100 # 0.1 bnb</li>
-            <li>100-200 # 0.2 bnb</li>
-            <li>200-300 # 0.3 bnb</li>
-            <li>300-400 # 0.4 bnb</li>
-            <li>400-500 # 0.5 bnb</li>
-            <li>500-750 # 0.75 bnb</li>
-            <li> 750-1000 # 1 bnb</li>
+            <li>50-1000 # 0.11 bnb</li>
+            <li>1000-1750 # 0.22 bnb</li>
+            <li>1750-2500 # 0.33 bnb</li>
           </ul>
           <div className="additon-div">
             <div className="calc">
