@@ -11,7 +11,7 @@
 
 .flip {
   margin-top: 2rem;
-  max-width: 550px;
+  max-width: 340px;
   object-fit: contain;
 }
 .mint h1 {
@@ -127,9 +127,6 @@
   }
   .additon-div {
     justify-content: center;
-  }
-  .flip {
-    max-width: 360px;
   }
 }
 @media screen and (max-width: 500px) {
