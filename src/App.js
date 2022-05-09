@@ -9,6 +9,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Mint from "./Pages/Mint/Mint";
 import View from "./Pages/View/View";
+import Traits from "./Pages/Traits/Traits";
 function App() {
   const [open, setOpen] = useState(false);
   const openHeader = (val) => {
@@ -28,6 +29,7 @@ function App() {
               <Route path="/calculator" element={<Calculator />}></Route>
               <Route path="/mint" element={<Mint />}></Route>
               <Route path="/view" element={<View />}></Route>
+              <Route path="/traits" element={<Traits />}></Route>
             </Routes>
           </AnimatePresence>
         </div>

@@ -9,6 +9,7 @@ import {
   faBook,
   faEye,
   faCartArrowDown,
+  faImagePortrait,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faDiscord,
@@ -46,6 +47,10 @@ function Sidebar({ open, func }) {
       case "/view":
         document.querySelector(".active").classList.remove("active");
         document.querySelector(".view-link").classList.add("active");
+        break;
+      case "/trait":
+        document.querySelector(".active").classList.remove("active");
+        document.querySelector(".trait-link").classList.add("active");
         break;
 
       default:
@@ -101,6 +106,14 @@ function Sidebar({ open, func }) {
           >
             <FontAwesomeIcon icon={faEye} />
             <p>View Killer whales</p>
+          </Link>
+          <Link
+            to={"/traits"}
+            onClick={clickHandler}
+            className="row-link trait-link"
+          >
+            <FontAwesomeIcon icon={faImagePortrait} />
+            <p>Traits</p>
           </Link>
           <a
             target={"blank"}
