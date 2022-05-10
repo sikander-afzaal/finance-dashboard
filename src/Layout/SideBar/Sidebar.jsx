@@ -48,9 +48,9 @@ function Sidebar({ open, func }) {
         document.querySelector(".active").classList.remove("active");
         document.querySelector(".view-link").classList.add("active");
         break;
-      case "/trait":
+      case "/traits":
         document.querySelector(".active").classList.remove("active");
-        document.querySelector(".trait-link").classList.add("active");
+        document.querySelector(".traits-link").classList.add("active");
         break;
 
       default:
@@ -110,7 +110,7 @@ function Sidebar({ open, func }) {
           <Link
             to={"/traits"}
             onClick={clickHandler}
-            className="row-link trait-link"
+            className="row-link traits-link"
           >
             <FontAwesomeIcon icon={faImagePortrait} />
             <p>Traits</p>

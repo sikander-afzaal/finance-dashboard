@@ -1,5 +1,4 @@
 import React from "react";
-
 function SmallBox({ img, name }) {
   return (
     <div className="trait-small-box">

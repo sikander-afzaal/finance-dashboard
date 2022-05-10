@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   max-width: 1870px;
   width: 100%;
+  max-height: 100vh;
 }
 .bottom-App {
   display: flex;
@@ -28,6 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: scroll;
 }
 .animated {
   display: flex;
