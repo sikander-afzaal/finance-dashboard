@@ -238,11 +238,11 @@ const data = {
       img: cyber1,
     },
     {
-      name: "Cyborg Eye Blue",
+      name: "Cyborg pink Shades ",
       img: cyber2,
     },
     {
-      name: "Cyborg pink Shades",
+      name: "Cyborg Eye Blue",
       img: cyber3,
     },
     {
@@ -424,7 +424,7 @@ const data = {
       img: sling7,
     },
     {
-      name: "Red",
+      name: "Red Louis V",
       img: sling8,
     },
     {
@@ -674,7 +674,7 @@ const data = {
   ],
   Joker: [
     {
-      name: "Joker Blue",
+      name: "Joker blue Chanel",
       img: Joker1,
     },
     {
@@ -700,7 +700,7 @@ const data = {
       img: festival1,
     },
     {
-      name: "Red Gilet",
+      name: "Red Louis V Gilet",
       img: festival2,
     },
     {
@@ -748,7 +748,7 @@ const data = {
       img: Shinta2,
     },
     {
-      name: "Bright Tshirt",
+      name: "Trippy Tshirt",
       img: Shinta3,
     },
     {
@@ -860,7 +860,7 @@ const data = {
       img: Shirts9,
     },
     {
-      name: "Designer shirt",
+      name: "Louis V Shirt",
       img: Shirts10,
     },
     {
@@ -868,7 +868,7 @@ const data = {
       img: Shirts11,
     },
     {
-      name: "Blue Singlet",
+      name: "Blue Chanel Singlet",
       img: Singlet1,
     },
     {
@@ -924,7 +924,7 @@ const data = {
       img: Singlet14,
     },
     {
-      name: "Thrasher 2 Singlet",
+      name: "Thrasher Image Singlet",
       img: Singlet15,
     },
     {
@@ -936,7 +936,7 @@ const data = {
       img: Singlet17,
     },
     {
-      name: "White Singlet",
+      name: "White Gucci singlet",
       img: Singlet18,
     },
     {

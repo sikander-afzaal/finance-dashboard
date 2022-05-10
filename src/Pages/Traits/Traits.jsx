@@ -63,7 +63,7 @@ function Traits() {
         </div>
         {/* Tooth box --------------------------- */}
         <div className="traits-box">
-          <h1>Tooth</h1>
+          <h1>Teeth</h1>
           <div className="traits-grid">
             {data.tooth.map((elem, index) => {
               return <SmallBox key={index} img={elem.img} name={elem.name} />;
