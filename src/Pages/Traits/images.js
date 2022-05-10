@@ -12,6 +12,9 @@ import cyber3 from "../../Assets/traits/Cyber/cyber (3).png";
 import cyber4 from "../../Assets/traits/Cyber/cyber (4).png";
 import cyber5 from "../../Assets/traits/Cyber/cyber (5).png";
 import cyber6 from "../../Assets/traits/Cyber/cyber (6).png";
+import cyber7 from "../../Assets/traits/Cyber/cyber (7).png";
+import cyber8 from "../../Assets/traits/Cyber/cyber (8).png";
+import cyber9 from "../../Assets/traits/Cyber/cyber (9).png";
 //head wear
 import head1 from "../../Assets/traits/Headwear/head (1).png";
 import head2 from "../../Assets/traits/Headwear/head (2).png";
@@ -23,18 +26,14 @@ import head7 from "../../Assets/traits/Headwear/head (7).png";
 import head8 from "../../Assets/traits/Headwear/head (8).png";
 import head9 from "../../Assets/traits/Headwear/head (9).png";
 import head10 from "../../Assets/traits/Headwear/head (10).png";
-import head11 from "../../Assets/traits/Headwear/head (11).png";
 import head12 from "../../Assets/traits/Headwear/head (12).png";
-import head13 from "../../Assets/traits/Headwear/head (13).png";
 import head14 from "../../Assets/traits/Headwear/head (14).png";
 import head15 from "../../Assets/traits/Headwear/head (15).png";
 import head16 from "../../Assets/traits/Headwear/head (16).png";
-import head17 from "../../Assets/traits/Headwear/head (17).png";
 import head18 from "../../Assets/traits/Headwear/head (18).png";
 import head19 from "../../Assets/traits/Headwear/head (19).png";
 import head20 from "../../Assets/traits/Headwear/head (20).png";
 import head21 from "../../Assets/traits/Headwear/head (21).png";
-import head22 from "../../Assets/traits/Headwear/head (22).png";
 //necklaces
 import neck1 from "../../Assets/traits/Necklaces/Necklace (1).png";
 import neck2 from "../../Assets/traits/Necklaces/Necklace (2).png";
@@ -209,45 +208,45 @@ import Tuxedo7 from "../../Assets/traits/Tuxedo/Tuxedo (7).png";
 const data = {
   body: [
     {
-      name: "Skin (1)",
+      name: "Rainbow",
       img: body1,
     },
     {
-      name: "Skin (2)",
+      name: "Trippy",
       img: body2,
     },
     {
-      name: "Skin (3)",
+      name: "Camouflage",
       img: body3,
     },
     {
-      name: "Skin (4)",
+      name: "Red",
       img: body4,
     },
     {
-      name: "Skin (5)",
+      name: "Gold",
       img: body5,
     },
     {
-      name: "Skin (6)",
+      name: "Cosmos",
       img: body6,
     },
   ],
   cyber: [
     {
-      name: "Cyborg Eye 1",
+      name: "Cyborg Eye Red",
       img: cyber1,
     },
     {
-      name: "Cyborg Eye 2",
+      name: "Cyborg Eye Blue",
       img: cyber2,
     },
     {
-      name: "Cyborg Eye 3",
+      name: "Cyborg pink Shades",
       img: cyber3,
     },
     {
-      name: "Cyborg",
+      name: "Cyborg Boss",
       img: cyber4,
     },
     {
@@ -258,254 +257,250 @@ const data = {
       name: "Belt",
       img: cyber6,
     },
+    {
+      name: "Eye Patch",
+      img: cyber7,
+    },
+    {
+      name: "Gnasher Mask",
+      img: cyber8,
+    },
+    {
+      name: "Welding Mask",
+      img: cyber9,
+    },
   ],
   head: [
     {
-      name: "Head Wear (1)",
+      name: "Blue Headband",
       img: head1,
     },
     {
-      name: "Head Wear (2)",
+      name: "Panties",
       img: head2,
     },
     {
-      name: "Head Wear (3)",
+      name: "Red Headband",
       img: head3,
     },
     {
-      name: "Head Wear (4)",
+      name: "Dick Headband",
       img: head4,
     },
     {
-      name: "Head Wear (5)",
+      name: "Blue Rabbit",
       img: head5,
     },
     {
-      name: "Head Wear (6)",
+      name: "Headphones",
       img: head6,
     },
     {
-      name: "Head Wear (7)",
+      name: "Horns",
       img: head7,
     },
     {
-      name: "Head Wear (8)",
+      name: "Crown",
       img: head8,
     },
     {
-      name: "Head Wear (9)",
+      name: "Witch Hat",
       img: head9,
     },
     {
-      name: "Head Wear (10)",
+      name: "Regae Headband Hair",
       img: head10,
     },
     {
-      name: "Head Wear (11)",
-      img: head11,
-    },
-    {
-      name: "Head Wear (12)",
+      name: "Flags Headband",
       img: head12,
     },
     {
-      name: "Head Wear (13)",
-      img: head13,
-    },
-    {
-      name: "Head Wear (14)",
+      name: "Black Cap",
       img: head14,
     },
     {
-      name: "Head Wear (15)",
+      name: "Red Cap",
       img: head15,
     },
     {
-      name: "Head Wear (16)",
+      name: "Hat",
       img: head16,
     },
     {
-      name: "Head Wear (17)",
-      img: head17,
-    },
-    {
-      name: "Head Wear (18)",
+      name: "Purple Headband",
       img: head18,
     },
     {
-      name: "Head Wear (19)",
+      name: "Yellow Headband",
       img: head19,
     },
     {
-      name: "Head Wear (20)",
+      name: "Bra",
       img: head20,
     },
     {
-      name: "Head Wear (21)",
+      name: "Santa Hat",
       img: head21,
-    },
-    {
-      name: "Head Wear (22)",
-      img: head22,
     },
   ],
   neck: [
     {
-      name: "Necklace (1)",
+      name: "Green Cube",
       img: neck1,
     },
     {
-      name: "Necklace (2)",
+      name: "Great Seal of US",
       img: neck2,
     },
     {
-      name: "Necklace (3)",
+      name: "Chain",
       img: neck3,
     },
     {
-      name: "Necklace (4)",
+      name: "BitCoin",
       img: neck4,
     },
     {
-      name: "Necklace (5)",
+      name: "Litecoin",
       img: neck5,
     },
     {
-      name: "Necklace (6)",
+      name: "Doge Coin",
       img: neck6,
     },
     {
-      name: "Necklace (7)",
+      name: "Shiba Inu",
       img: neck7,
     },
     {
-      name: "Necklace (8)",
+      name: "Ethereum",
       img: neck8,
     },
     {
-      name: "Necklace (9)",
+      name: "Dollar",
       img: neck9,
     },
     {
-      name: "Necklace (10)",
+      name: "Designer",
       img: neck10,
     },
     {
-      name: "Necklace (11)",
+      name: "Illuminati",
       img: neck11,
     },
     {
-      name: "Necklace (12)",
+      name: "Cross",
       img: neck12,
     },
   ],
   sling: [
     {
-      name: "Sling Bag (1)",
+      name: "Bitcoin",
       img: sling1,
     },
     {
-      name: "Sling Bag (2)",
+      name: "Camouflage",
       img: sling2,
     },
     {
-      name: "Sling Bag (3)",
+      name: "Game Over",
       img: sling3,
     },
     {
-      name: "Sling Bag (4)",
+      name: "Balenciaga",
       img: sling4,
     },
     {
-      name: "Sling Bag (5)",
+      name: "Louis Vuitton",
       img: sling5,
     },
     {
-      name: "Sling Bag (6)",
+      name: "Thrasher",
       img: sling6,
     },
     {
-      name: "Sling Bag (7)",
+      name: "Chanel",
       img: sling7,
     },
     {
-      name: "Sling Bag (8)",
+      name: "Red",
       img: sling8,
     },
     {
-      name: "Sling Bag (9)",
+      name: "Supreme",
       img: sling9,
     },
     {
-      name: "Sling Bag (10)",
+      name: "The North Face",
       img: sling10,
     },
     {
-      name: "Sling Bag (11)",
+      name: "Binance",
       img: sling11,
     },
     {
-      name: "Sling Bag (12)",
+      name: "Bitcoin Black",
       img: sling12,
     },
   ],
   tattoo: [
     {
-      name: "Tattoo (1)",
+      name: "Tribal Large",
       img: tatoo1,
     },
     {
-      name: "Tattoo (2)",
+      name: "Boog Smile Now",
       img: tatoo2,
     },
     {
-      name: "Tattoo (3)",
+      name: "Tribal Small",
       img: tatoo3,
     },
     {
-      name: "Tattoo (4)",
+      name: "Tribal Tiger",
       img: tatoo4,
     },
     {
-      name: "Tattoo (5)",
+      name: "Boog No Evil",
       img: tatoo5,
     },
   ],
   tooth: [
     {
-      name: "Tooth (1)",
+      name: "Bloody Mess",
       img: tooth1,
     },
     {
-      name: "Tooth (2)",
+      name: "Red Safety",
       img: tooth2,
     },
     {
-      name: "Tooth (3)",
+      name: "Blue Sharp",
       img: tooth3,
     },
     {
-      name: "Tooth (4)",
+      name: "Blue Capped",
       img: tooth4,
     },
     {
-      name: "Tooth (5)",
+      name: "Purple Haze",
       img: tooth5,
     },
     {
-      name: "Tooth (6)",
+      name: "Multi Color",
       img: tooth6,
     },
     {
-      name: "Tooth (7)",
+      name: "Diamond",
       img: tooth7,
     },
     {
-      name: "Tooth (8)",
+      name: "Rainbow",
       img: tooth8,
     },
     {
-      name: "Tooth (9)",
+      name: "Gold",
       img: tooth9,
     },
   ],
@@ -515,135 +510,109 @@ const data = {
       img: batman1,
     },
     {
-      name: "Batman Channel",
+      name: "Batman Chanel",
       img: batman2,
     },
     {
-      name: "Batman Designer",
+      name: "Batman Louis V",
       img: batman3,
     },
     {
-      name: "Batman Marine",
+      name: "Batman Grey Camo",
       img: batman4,
     },
   ],
-  festival: [
+  HeavyTops: [
     {
-      name: "Festival (1)",
-      img: festival1,
-    },
-    {
-      name: "Festival (2)",
-      img: festival2,
-    },
-    {
-      name: "Festival (3)",
-      img: festival3,
-    },
-    {
-      name: "Festival (4)",
-      img: festival4,
-    },
-    {
-      name: "Festival (5)",
-      img: festival5,
-    },
-    {
-      name: "Festival (6)",
-      img: festival6,
-    },
-  ],
-  Hoodie: [
-    {
-      name: "Hoodie (1)",
+      name: "Skull Hoodie",
       img: Hoodie1,
     },
     {
-      name: "Hoodie (2)",
+      name: "Money Hoodie",
       img: Hoodie2,
     },
     {
-      name: "Hoodie (3)",
+      name: "Pop Art Hoodie",
       img: Hoodie3,
     },
     {
-      name: "Hoodie (4)",
+      name: "Abstract Hoodie",
       img: Hoodie4,
     },
     {
-      name: "Hoodie (5)",
+      name: "Nike Hoodie",
       img: Hoodie5,
     },
     {
-      name: "Hoodie (6)",
+      name: "Red Louis V Hoodie",
       img: Hoodie6,
     },
     {
-      name: "Hoodie (7)",
+      name: "Blue Chanel Hoodie",
       img: Hoodie7,
     },
     {
-      name: "Hoodie (8)",
+      name: "Grey D&G Hoodie",
       img: Hoodie8,
     },
     {
-      name: "Hoodie (9)",
+      name: "The North Face Hoodie",
       img: Hoodie9,
     },
     {
-      name: "Hoodie (10)",
+      name: "New Balance Hoodie",
       img: Hoodie10,
     },
     {
-      name: "Hoodie (11)",
+      name: "Green Illuminati Hoodie",
       img: Hoodie11,
     },
     {
-      name: "Hoodie (12)",
+      name: "Puma Hoodie",
       img: Hoodie12,
     },
     {
-      name: "Hoodie (13)",
+      name: "Thrasher Hoodie",
       img: Hoodie13,
     },
     {
-      name: "Hoodie (14)",
+      name: "Lips Hoodie",
       img: Hoodie14,
     },
     {
-      name: "Hoodie (15)",
+      name: "Purple Hoodie Zip",
       img: Hoodie15,
     },
     {
-      name: "Hoodie (16)",
+      name: "Dark Green Hoodie Zip",
       img: Hoodie16,
     },
     {
-      name: "Hoodie (17)",
+      name: "Black Hoodie Zip",
       img: Hoodie17,
     },
     {
-      name: "Hoodie (18)",
+      name: "White Hoodie Zip",
       img: Hoodie18,
     },
     {
-      name: "Hoodie (19)",
+      name: "Plain Green Hoodie Zip",
       img: Hoodie19,
     },
     {
-      name: "Hoodie (20)",
+      name: "Leaves Hoodie",
       img: Hoodie20,
     },
     {
-      name: "Hoodie (21)",
+      name: "Floral Hoodie",
       img: Hoodie21,
     },
     {
-      name: "Hoodie (22)",
+      name: "Flowers Hoodie",
       img: Hoodie22,
     },
     {
-      name: "Hoodie (23)",
+      name: "Versace Hoodie",
       img: Hoodie23,
     },
     {
@@ -651,354 +620,368 @@ const data = {
       img: akastHoodie,
     },
     {
-      name: "Oh Hoodie",
+      name: "Oh Shit Hoodie Up",
       img: Oh_Hoodie,
     },
     {
-      name: "Puma Hoodie",
+      name: "Leopard Hoodie",
       img: Puma_Hoodie,
     },
     {
-      name: "Ballenciaga",
+      name: "Ballenciaga Hoodie Up",
       img: Ballenciaga,
     },
     {
-      name: "Dope",
+      name: "Dope Hoodie Up",
       img: Dope,
     },
     {
-      name: "Hustle Hoodie",
+      name: "Hustle Hoodie Up",
       img: Hustle_Hoodie,
     },
     {
       name: "Louis Voitton Hoodie",
       img: Louis_Voitton_Hoodie,
     },
-  ],
-  Joker: [
     {
-      name: "Joker (1)",
-      img: Joker1,
-    },
-    {
-      name: "Joker (2)",
-      img: Joker2,
-    },
-    {
-      name: "Joker (3)",
-      img: Joker3,
-    },
-    {
-      name: "Joker (4)",
-      img: Joker4,
-    },
-    {
-      name: "Joker (5)",
-      img: Joker5,
-    },
-  ],
-  Military: [
-    {
-      name: "Military (1)",
-      img: Military1,
-    },
-    {
-      name: "Military (2)",
-      img: Military2,
-    },
-    {
-      name: "Military (3)",
-      img: Military3,
-    },
-    {
-      name: "Military (4)",
-      img: Military4,
-    },
-    {
-      name: "Military (5)",
-      img: Military5,
-    },
-  ],
-  Shinta: [
-    {
-      name: "Shinta (1)",
-      img: Shinta1,
-    },
-    {
-      name: "Shinta (2)",
-      img: Shinta2,
-    },
-    {
-      name: "Shinta (3)",
-      img: Shinta3,
-    },
-    {
-      name: "Shinta (4)",
-      img: Shinta4,
-    },
-    {
-      name: "Shinta (5)",
-      img: Shinta5,
-    },
-    {
-      name: "Shinta (6)",
-      img: Shinta6,
-    },
-    {
-      name: "Shinta (7)",
-      img: Shinta7,
-    },
-    {
-      name: "Shinta (8)",
-      img: Shinta8,
-    },
-    {
-      name: "Shinta (9)",
-      img: Shinta9,
-    },
-    {
-      name: "Shinta (10)",
-      img: Shinta10,
-    },
-    {
-      name: "Shinta (11)",
-      img: Shinta11,
-    },
-    {
-      name: "Shinta (12)",
-      img: Shinta12,
-    },
-    {
-      name: "Shinta (13)",
-      img: Shinta13,
-    },
-    {
-      name: "Shinta (14)",
-      img: Shinta14,
-    },
-    {
-      name: "Shinta (15)",
-      img: Shinta15,
-    },
-    {
-      name: "Shinta (16)",
-      img: Shinta16,
-    },
-    {
-      name: "Shinta (17)",
-      img: Shinta17,
-    },
-    {
-      name: "Shinta (18)",
-      img: Shinta18,
-    },
-    {
-      name: "Shinta (19)",
-      img: Shinta19,
-    },
-    {
-      name: "Shinta (20)",
-      img: Shinta20,
-    },
-    {
-      name: "Shinta (21)",
-      img: Shinta21,
-    },
-  ],
-  Shirts: [
-    {
-      name: "Shirt (1)",
-      img: Shirts1,
-    },
-    {
-      name: "Shirt (2)",
-      img: Shirts2,
-    },
-    {
-      name: "Shirt (3)",
-      img: Shirts3,
-    },
-    {
-      name: "Shirt (4)",
-      img: Shirts4,
-    },
-    {
-      name: "Shirt (5)",
-      img: Shirts5,
-    },
-    {
-      name: "Shirt (6)",
-      img: Shirts6,
-    },
-    {
-      name: "Shirt (7)",
-      img: Shirts7,
-    },
-    {
-      name: "Shirt (8)",
-      img: Shirts8,
-    },
-    {
-      name: "Shirt (9)",
-      img: Shirts9,
-    },
-    {
-      name: "Shirt (10)",
-      img: Shirts10,
-    },
-    {
-      name: "Shirt (11)",
-      img: Shirts11,
-    },
-  ],
-  Singlet: [
-    {
-      name: "Singlet (1)",
-      img: Singlet1,
-    },
-    {
-      name: "Singlet (2)",
-      img: Singlet2,
-    },
-    {
-      name: "Singlet (3)",
-      img: Singlet3,
-    },
-    {
-      name: "Singlet (4)",
-      img: Singlet4,
-    },
-    {
-      name: "Singlet (5)",
-      img: Singlet5,
-    },
-    {
-      name: "Singlet (6)",
-      img: Singlet6,
-    },
-    {
-      name: "Singlet (7)",
-      img: Singlet7,
-    },
-    {
-      name: "Singlet (8)",
-      img: Singlet8,
-    },
-    {
-      name: "Singlet (9)",
-      img: Singlet9,
-    },
-    {
-      name: "Singlet (10)",
-      img: Singlet10,
-    },
-    {
-      name: "Singlet (11)",
-      img: Singlet11,
-    },
-    {
-      name: "Singlet (12)",
-      img: Singlet12,
-    },
-    {
-      name: "Singlet (13)",
-      img: Singlet13,
-    },
-    {
-      name: "Singlet (14)",
-      img: Singlet14,
-    },
-    {
-      name: "Singlet (15)",
-      img: Singlet15,
-    },
-    {
-      name: "Singlet (16)",
-      img: Singlet16,
-    },
-    {
-      name: "Singlet (17)",
-      img: Singlet17,
-    },
-    {
-      name: "Singlet (18)",
-      img: Singlet18,
-    },
-    {
-      name: "Singlet (19)",
-      img: Singlet19,
-    },
-    {
-      name: "Singlet (20)",
-      img: Singlet20,
-    },
-  ],
-  Tshirt: [
-    {
-      name: "T-Shirt (1)",
-      img: Tshirt1,
-    },
-    {
-      name: "T-Shirt (2)",
-      img: Tshirt2,
-    },
-    {
-      name: "T-Shirt (3)",
-      img: Tshirt3,
-    },
-    {
-      name: "T-Shirt (4)",
-      img: Tshirt4,
-    },
-    {
-      name: "T-Shirt (5)",
-      img: Tshirt5,
-    },
-    {
-      name: "T-Shirt (6)",
-      img: Tshirt6,
-    },
-    {
-      name: "T-Shirt (7)",
-      img: Tshirt7,
-    },
-    {
-      name: "T-Shirt (8)",
-      img: Tshirt8,
-    },
-    {
-      name: "T-Shirt (9)",
-      img: Tshirt9,
-    },
-  ],
-  Tuxedo: [
-    {
-      name: "Tuxedo (1)",
+      name: "Black Tuxedo",
       img: Tuxedo1,
     },
     {
-      name: "Tuxedo (2)",
+      name: "Roller Disco",
       img: Tuxedo2,
     },
     {
-      name: "Tuxedo (3)",
+      name: "Red Tuxedo",
       img: Tuxedo3,
     },
     {
-      name: "Tuxedo (4)",
+      name: "Grey Tuxedo",
       img: Tuxedo4,
     },
     {
-      name: "Tuxedo (5)",
+      name: "Green Tuxedo",
       img: Tuxedo5,
     },
     {
-      name: "Tuxedo (6)",
+      name: "Blue Tuxedo",
       img: Tuxedo6,
     },
     {
-      name: "Tuxedo (7)",
+      name: "Pink Tuxedo",
       img: Tuxedo7,
+    },
+  ],
+  Joker: [
+    {
+      name: "Joker Blue",
+      img: Joker1,
+    },
+    {
+      name: "Joker Grey Camo",
+      img: Joker2,
+    },
+    {
+      name: "Joker Louis V",
+      img: Joker3,
+    },
+    {
+      name: "Joker Red",
+      img: Joker4,
+    },
+    {
+      name: "Joker Thrasher",
+      img: Joker5,
+    },
+  ],
+  LightTops: [
+    {
+      name: "Brown Gilet",
+      img: festival1,
+    },
+    {
+      name: "Red Gilet",
+      img: festival2,
+    },
+    {
+      name: "Leopard Gilet",
+      img: festival3,
+    },
+    {
+      name: "Green Gilet",
+      img: festival4,
+    },
+    {
+      name: "Ethereum Gilet",
+      img: festival5,
+    },
+    {
+      name: "Borat Mankini",
+      img: festival6,
+    },
+    {
+      name: "Green Millitary Vest",
+      img: Military1,
+    },
+    {
+      name: "Blue Military Vest",
+      img: Military2,
+    },
+    {
+      name: "Grey Military Vest",
+      img: Military3,
+    },
+    {
+      name: "Red Millitary Vest",
+      img: Military4,
+    },
+    {
+      name: "Black Millitary Vest",
+      img: Military5,
+    },
+    {
+      name: "Leopard Tshirt",
+      img: Shinta1,
+    },
+    {
+      name: "Colorful Tshirt",
+      img: Shinta2,
+    },
+    {
+      name: "Bright Tshirt",
+      img: Shinta3,
+    },
+    {
+      name: "Ed Hardy Tshirt",
+      img: Shinta4,
+    },
+    {
+      name: "Under Armour Tshirt",
+      img: Shinta5,
+    },
+    {
+      name: "Balenciaga Tshirt",
+      img: Shinta6,
+    },
+    {
+      name: "Game Over Tshirt",
+      img: Shinta7,
+    },
+    {
+      name: "Ethereum black Tshirt",
+      img: Shinta8,
+    },
+    {
+      name: "Gucci Tshirt",
+      img: Shinta9,
+    },
+    {
+      name: "Splash Tshirt",
+      img: Shinta10,
+    },
+    {
+      name: "Skull Tshirt",
+      img: Shinta11,
+    },
+    {
+      name: "Cartoon Tshirt",
+      img: Shinta12,
+    },
+    {
+      name: "Money Tshirt",
+      img: Shinta13,
+    },
+    {
+      name: "Black and Red Tshirt",
+      img: Shinta14,
+    },
+    {
+      name: "Tiger Tshirt",
+      img: Shinta15,
+    },
+    {
+      name: "Gold Tshirt",
+      img: Shinta16,
+    },
+    {
+      name: "Red Tshirt",
+      img: Shinta17,
+    },
+    {
+      name: "Shiny Tshirt",
+      img: Shinta18,
+    },
+    {
+      name: "Scale Tshirt",
+      img: Shinta19,
+    },
+    {
+      name: "Rainbow Tshirt",
+      img: Shinta20,
+    },
+    {
+      name: "Whirls Tshirt",
+      img: Shinta21,
+    },
+    {
+      name: "Green Camouflage Shirt",
+      img: Shirts1,
+    },
+    {
+      name: "Thrasher Shirt",
+      img: Shirts2,
+    },
+    {
+      name: "Louis Vuitton Shirt",
+      img: Shirts3,
+    },
+    {
+      name: "Ethereum Shirt",
+      img: Shirts4,
+    },
+    {
+      name: "McD Tshirt",
+      img: Shirts5,
+    },
+    {
+      name: "Bitcoin Gold Shirt",
+      img: Shirts6,
+    },
+    {
+      name: "Brands Grey Shirt",
+      img: Shirts7,
+    },
+    {
+      name: "Purple Shirt",
+      img: Shirts8,
+    },
+    {
+      name: "Chanel Shirt",
+      img: Shirts9,
+    },
+    {
+      name: "Designer shirt",
+      img: Shirts10,
+    },
+    {
+      name: "Grey Camouflage shirt",
+      img: Shirts11,
+    },
+    {
+      name: "Blue Singlet",
+      img: Singlet1,
+    },
+    {
+      name: "Santa Cruz Singlet",
+      img: Singlet2,
+    },
+    {
+      name: "Marvel Singlet",
+      img: Singlet3,
+    },
+    {
+      name: "Vans Singlet",
+      img: Singlet4,
+    },
+    {
+      name: "Gucci Singlet",
+      img: Singlet5,
+    },
+    {
+      name: "Thrasher Singlet",
+      img: Singlet6,
+    },
+    {
+      name: "Balenciaga Singlet",
+      img: Singlet7,
+    },
+    {
+      name: "Jordan Singlet",
+      img: Singlet8,
+    },
+    {
+      name: "Adidas Singlet",
+      img: Singlet9,
+    },
+    {
+      name: "Supreme Singlet",
+      img: Singlet10,
+    },
+    {
+      name: "Scary Singlet",
+      img: Singlet11,
+    },
+    {
+      name: "Supreme Small Singlet",
+      img: Singlet12,
+    },
+    {
+      name: "Gap Singlet",
+      img: Singlet13,
+    },
+    {
+      name: "Hugo Boss Singlet",
+      img: Singlet14,
+    },
+    {
+      name: "Thrasher 2 Singlet",
+      img: Singlet15,
+    },
+    {
+      name: "Ethereum Singlet",
+      img: Singlet16,
+    },
+    {
+      name: "Binance Singlet",
+      img: Singlet17,
+    },
+    {
+      name: "White Singlet",
+      img: Singlet18,
+    },
+    {
+      name: "Louis Vuitton Singlet",
+      img: Singlet19,
+    },
+    {
+      name: "Nike Singlet",
+      img: Singlet20,
+    },
+    {
+      name: "Weed Tshirt",
+      img: Tshirt1,
+    },
+    {
+      name: "Spider Tshirt",
+      img: Tshirt2,
+    },
+    {
+      name: "Bitcoin Grey Tshirt",
+      img: Tshirt3,
+    },
+    {
+      name: "CZ Tshirt",
+      img: Tshirt4,
+    },
+    {
+      name: "Light Binance Tshirt",
+      img: Tshirt5,
+    },
+    {
+      name: "Dark Binance Tshirt",
+      img: Tshirt6,
+    },
+    {
+      name: "BTC Green Tshirt",
+      img: Tshirt7,
+    },
+    {
+      name: "TBS Tshirt",
+      img: Tshirt8,
+    },
+    {
+      name: "Lamb of God Tshirt",
+      img: Tshirt9,
     },
   ],
 };

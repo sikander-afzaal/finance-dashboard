@@ -32,10 +32,10 @@
   justify-content: center;
 }
 .trait-small-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
+  height: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px 50px;
   max-width: 150px;
   text-align: center;
   gap: 10px;
@@ -44,7 +44,8 @@
 }
 .trait-small-box p {
   color: white;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  align-self: flex-start;
 }
 .trait-img {
   background-color: #c4d1dc30;
