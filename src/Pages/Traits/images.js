@@ -224,6 +224,45 @@ import bg8 from "../../Assets/traits/Background/Background (8).png";
 import bg9 from "../../Assets/traits/Background/Background (9).png";
 import bg10 from "../../Assets/traits/Background/Background (10).png";
 import bg11 from "../../Assets/traits/Background/Background (11).png";
+import bg12 from "../../Assets/traits/Background/bg (1).png";
+import bg13 from "../../Assets/traits/Background/bg (2).png";
+import bg14 from "../../Assets/traits/Background/bg (3).png";
+import bg15 from "../../Assets/traits/Background/bg (4).png";
+import bg16 from "../../Assets/traits/Background/bg (5).png";
+import bg17 from "../../Assets/traits/Background/bg (6).png";
+import bg18 from "../../Assets/traits/Background/bg (7).png";
+import bg19 from "../../Assets/traits/Background/bg (8).png";
+import bg20 from "../../Assets/traits/Background/bg (9).png";
+import bg21 from "../../Assets/traits/Background/bg (10).png";
+import bg22 from "../../Assets/traits/Background/bg (11).png";
+import bg23 from "../../Assets/traits/Background/bg (12).png";
+import bg24 from "../../Assets/traits/Background/bg (13).png";
+import bg25 from "../../Assets/traits/Background/bg (14).png";
+import bg26 from "../../Assets/traits/Background/bg (15).png";
+import bg27 from "../../Assets/traits/Background/bg (16).png";
+import bg28 from "../../Assets/traits/Background/bg (17).png";
+import bg29 from "../../Assets/traits/Background/bg (18).png";
+import bg30 from "../../Assets/traits/Background/bg (19).png";
+import bg31 from "../../Assets/traits/Background/bg (20).png";
+import bg32 from "../../Assets/traits/Background/bg (21).png";
+import bg33 from "../../Assets/traits/Background/bg (22).png";
+import bg34 from "../../Assets/traits/Background/bg (23).png";
+import bg35 from "../../Assets/traits/Background/bg (24).png";
+import bg36 from "../../Assets/traits/Background/bg (25).png";
+import bg37 from "../../Assets/traits/Background/bg (26).png";
+import bg38 from "../../Assets/traits/Background/bg (27).png";
+import bg39 from "../../Assets/traits/Background/bg (28).png";
+import bg40 from "../../Assets/traits/Background/bg (29).png";
+import bg41 from "../../Assets/traits/Background/bg (30).png";
+import bg42 from "../../Assets/traits/Background/bg (31).png";
+import bg43 from "../../Assets/traits/Background/bg (32).png";
+import bg44 from "../../Assets/traits/Background/bg (33).png";
+import bg45 from "../../Assets/traits/Background/bg (34).png";
+import bg46 from "../../Assets/traits/Background/bg (35).png";
+import bg47 from "../../Assets/traits/Background/bg (36).png";
+import bg48 from "../../Assets/traits/Background/bg (37).png";
+import bg49 from "../../Assets/traits/Background/bg (38).png";
+import bg50 from "../../Assets/traits/Background/bg (39).png";
 const data = {
   background: [
     {
@@ -269,6 +308,162 @@ const data = {
     {
       name: "White",
       img: bg11,
+    },
+    {
+      name: "All Seeing Eye",
+      img: bg12,
+    },
+    {
+      name: "batman Gotham Nft Labz",
+      img: bg13,
+    },
+    {
+      name: "Binance Gold",
+      img: bg14,
+    },
+    {
+      name: "Blue Diamond",
+      img: bg15,
+    },
+    {
+      name: "Blue Sketch",
+      img: bg16,
+    },
+    {
+      name: "Blue Tiger",
+      img: bg17,
+    },
+    {
+      name: "Blurred Blood",
+      img: bg18,
+    },
+    {
+      name: "Boiler Room Burnt",
+      img: bg19,
+    },
+    {
+      name: "Boiler Room Green",
+      img: bg20,
+    },
+    {
+      name: "Boiler Room Multi",
+      img: bg21,
+    },
+    {
+      name: "Boiler Room Purple",
+      img: bg22,
+    },
+    {
+      name: "Boiler Room Turquoise",
+      img: bg23,
+    },
+    {
+      name: "Boiler Room Sketch",
+      img: bg24,
+    },
+    {
+      name: "BTC Stamp",
+      img: bg25,
+    },
+    {
+      name: "Chanel Black",
+      img: bg26,
+    },
+    {
+      name: "Cloudy Blue",
+      img: bg27,
+    },
+    {
+      name: "Demon Skin",
+      img: bg28,
+    },
+    {
+      name: "Escape Room",
+      img: bg29,
+    },
+    {
+      name: "Ethereum Skater",
+      img: bg30,
+    },
+    {
+      name: "Flaming Skulls",
+      img: bg31,
+    },
+    {
+      name: "Green Nightmare",
+      img: bg32,
+    },
+    {
+      name: "Green Sketch",
+      img: bg33,
+    },
+    {
+      name: "Grey Haze",
+      img: bg34,
+    },
+    {
+      name: "Grey Sketch",
+      img: bg35,
+    },
+    {
+      name: "Guiding Light",
+      img: bg36,
+    },
+    {
+      name: "Joker Steps",
+      img: bg37,
+    },
+    {
+      name: "Kaleido Purple",
+      img: bg38,
+    },
+    {
+      name: "Light Blue Sketch",
+      img: bg39,
+    },
+    {
+      name: "Ocean View",
+      img: bg40,
+    },
+    {
+      name: "White",
+      img: bg41,
+    },
+    {
+      name: "Pink Diamond",
+      img: bg42,
+    },
+    {
+      name: "Pink Sketch",
+      img: bg43,
+    },
+    {
+      name: "Purple Diamond",
+      img: bg44,
+    },
+    {
+      name: "Purple Haze",
+      img: bg45,
+    },
+    {
+      name: "Rainbow",
+      img: bg46,
+    },
+    {
+      name: "Raw Threadz",
+      img: bg47,
+    },
+    {
+      name: "Saturday Night Vision",
+      img: bg48,
+    },
+    {
+      name: "Supreme Skater",
+      img: bg49,
+    },
+    {
+      name: "Yellow Sketch",
+      img: bg50,
     },
   ],
   body: [
