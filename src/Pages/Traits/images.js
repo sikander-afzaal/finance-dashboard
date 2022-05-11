@@ -223,6 +223,7 @@ import bg7 from "../../Assets/traits/Background/Background (7).png";
 import bg8 from "../../Assets/traits/Background/Background (8).png";
 import bg9 from "../../Assets/traits/Background/Background (9).png";
 import bg10 from "../../Assets/traits/Background/Background (10).png";
+import bg11 from "../../Assets/traits/Background/Background (11).png";
 const data = {
   background: [
     {
@@ -264,6 +265,10 @@ const data = {
     {
       name: "Whale",
       img: bg10,
+    },
+    {
+      name: "White",
+      img: bg11,
     },
   ],
   body: [
