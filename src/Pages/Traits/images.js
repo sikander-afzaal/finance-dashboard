@@ -5,6 +5,12 @@ import body3 from "../../Assets/traits/Body/Skin (3).png";
 import body4 from "../../Assets/traits/Body/Skin (4).png";
 import body5 from "../../Assets/traits/Body/Skin (5).png";
 import body6 from "../../Assets/traits/Body/Skin (6).png";
+import body7 from "../../Assets/traits/Body/Skin (7).png";
+import body8 from "../../Assets/traits/Body/Skin (8).png";
+import body9 from "../../Assets/traits/Body/Skin (9).png";
+import body10 from "../../Assets/traits/Body/Skin (10).png";
+import body11 from "../../Assets/traits/Body/Skin (11).png";
+import body12 from "../../Assets/traits/Body/Skin (12).png";
 //cyber images
 import cyber1 from "../../Assets/traits/Cyber/cyber (1).png";
 import cyber2 from "../../Assets/traits/Cyber/cyber (2).png";
@@ -15,6 +21,7 @@ import cyber6 from "../../Assets/traits/Cyber/cyber (6).png";
 import cyber7 from "../../Assets/traits/Cyber/cyber (7).png";
 import cyber8 from "../../Assets/traits/Cyber/cyber (8).png";
 import cyber9 from "../../Assets/traits/Cyber/cyber (9).png";
+import cyber10 from "../../Assets/traits/Cyber/cyber (10).png";
 //head wear
 import head1 from "../../Assets/traits/Headwear/head (1).png";
 import head2 from "../../Assets/traits/Headwear/head (2).png";
@@ -47,6 +54,7 @@ import neck9 from "../../Assets/traits/Necklaces/Necklace (9).png";
 import neck10 from "../../Assets/traits/Necklaces/Necklace (10).png";
 import neck11 from "../../Assets/traits/Necklaces/Necklace (11).png";
 import neck12 from "../../Assets/traits/Necklaces/Necklace (12).png";
+import neck13 from "../../Assets/traits/Necklaces/Necklace (13).png";
 //Sling
 import sling1 from "../../Assets/traits/Sling bag/sling (1).png";
 import sling2 from "../../Assets/traits/Sling bag/sling (2).png";
@@ -204,8 +212,60 @@ import Tuxedo4 from "../../Assets/traits/Tuxedo/Tuxedo (4).png";
 import Tuxedo5 from "../../Assets/traits/Tuxedo/Tuxedo (5).png";
 import Tuxedo6 from "../../Assets/traits/Tuxedo/Tuxedo (6).png";
 import Tuxedo7 from "../../Assets/traits/Tuxedo/Tuxedo (7).png";
-
+//Backgrounds
+import bg1 from "../../Assets/traits/Background/Background (1).png";
+import bg2 from "../../Assets/traits/Background/Background (2).png";
+import bg3 from "../../Assets/traits/Background/Background (3).png";
+import bg4 from "../../Assets/traits/Background/Background (4).png";
+import bg5 from "../../Assets/traits/Background/Background (5).png";
+import bg6 from "../../Assets/traits/Background/Background (6).png";
+import bg7 from "../../Assets/traits/Background/Background (7).png";
+import bg8 from "../../Assets/traits/Background/Background (8).png";
+import bg9 from "../../Assets/traits/Background/Background (9).png";
+import bg10 from "../../Assets/traits/Background/Background (10).png";
 const data = {
+  background: [
+    {
+      name: "Broken Wall",
+      img: bg1,
+    },
+    {
+      name: "Glitch",
+      img: bg2,
+    },
+    {
+      name: "Horrow",
+      img: bg3,
+    },
+    {
+      name: "Labz",
+      img: bg4,
+    },
+    {
+      name: "Matrix",
+      img: bg5,
+    },
+    {
+      name: "Money",
+      img: bg6,
+    },
+    {
+      name: "Moon",
+      img: bg7,
+    },
+    {
+      name: "Sunset",
+      img: bg8,
+    },
+    {
+      name: "Thunderbolt",
+      img: bg9,
+    },
+    {
+      name: "Whale",
+      img: bg10,
+    },
+  ],
   body: [
     {
       name: "Rainbow",
@@ -231,8 +291,32 @@ const data = {
       name: "Cosmos",
       img: body6,
     },
+    {
+      name: "Albino",
+      img: body7,
+    },
+    {
+      name: "Zombie",
+      img: body8,
+    },
+    {
+      name: "Dark",
+      img: body9,
+    },
+    {
+      name: "Green Neon",
+      img: body10,
+    },
+    {
+      name: "Pink Neon",
+      img: body11,
+    },
+    {
+      name: "Purple Neon",
+      img: body12,
+    },
   ],
-  cyber: [
+  Accessories: [
     {
       name: "Cyborg Eye Red",
       img: cyber1,
@@ -268,6 +352,10 @@ const data = {
     {
       name: "Welding Mask",
       img: cyber9,
+    },
+    {
+      name: "Laser Beam",
+      img: cyber10,
     },
   ],
   head: [
@@ -392,6 +480,10 @@ const data = {
     {
       name: "Cross",
       img: neck12,
+    },
+    {
+      name: "Binance",
+      img: neck13,
     },
   ],
   sling: [

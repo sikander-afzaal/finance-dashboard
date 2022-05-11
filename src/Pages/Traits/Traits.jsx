@@ -7,6 +7,15 @@ function Traits() {
   return (
     <AnimatedPage>
       <div className="traits">
+        {/* Backgrounds box ----------------- */}
+        <div className="traits-box">
+          <h1>Backgrounds</h1>
+          <div className="traits-grid">
+            {data.background.map((elem, index) => {
+              return <SmallBox key={index} img={elem.img} name={elem.name} />;
+            })}
+          </div>
+        </div>
         {/* Skins box ----------------- */}
         <div className="traits-box">
           <h1>Skins</h1>
@@ -16,11 +25,11 @@ function Traits() {
             })}
           </div>
         </div>
-        {/* cyber box --------------------------- */}
+        {/* Accessories box --------------------------- */}
         <div className="traits-box">
-          <h1>Cyber</h1>
+          <h1>Accessories</h1>
           <div className="traits-grid">
-            {data.cyber.map((elem, index) => {
+            {data.Accessories.map((elem, index) => {
               return <SmallBox key={index} img={elem.img} name={elem.name} />;
             })}
           </div>
