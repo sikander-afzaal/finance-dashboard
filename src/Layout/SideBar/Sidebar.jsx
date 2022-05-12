@@ -97,7 +97,7 @@ function Sidebar({ open, func }) {
             className="row-link mint-link"
           >
             <FontAwesomeIcon icon={faCartArrowDown} />
-            <p>Mint Killer whales</p>
+            <p>Mint Killer Whales</p>
           </Link>
           <Link
             to={"/view"}
@@ -105,7 +105,7 @@ function Sidebar({ open, func }) {
             className="row-link view-link"
           >
             <FontAwesomeIcon icon={faEye} />
-            <p>View Killer whales</p>
+            <p>View Killer Whales</p>
           </Link>
           <Link
             to={"/traits"}
@@ -113,7 +113,7 @@ function Sidebar({ open, func }) {
             className="row-link traits-link"
           >
             <FontAwesomeIcon icon={faImagePortrait} />
-            <p>Traits</p>
+            <p>Killer Whale Traits</p>
           </Link>
           <a
             target={"blank"}
@@ -121,7 +121,7 @@ function Sidebar({ open, func }) {
             className="row-link"
           >
             <FontAwesomeIcon icon={faBolt} />
-            <p>Swap</p>
+            <p>Pancake Swap</p>
           </a>
           <a
             target={"blank"}
@@ -129,7 +129,7 @@ function Sidebar({ open, func }) {
             className="row-link"
           >
             <FontAwesomeIcon icon={faBook} />
-            <p>Docs</p>
+            <p>Orca Docs</p>
           </a>
         </div>
         <div className="bottom-sidebar">
