@@ -274,7 +274,7 @@ const data = {
       img: bg2,
     },
     {
-      name: "Horrow",
+      name: "Horror",
       img: bg3,
     },
     {
@@ -314,7 +314,7 @@ const data = {
       img: bg12,
     },
     {
-      name: "batman Gotham Nft Labz",
+      name: "Batman Gotham Nft Labz",
       img: bg13,
     },
     {
@@ -358,7 +358,7 @@ const data = {
       img: bg23,
     },
     {
-      name: "Boiler Room Sketch",
+      name: "Bright Pink Sketch",
       img: bg24,
     },
     {
@@ -386,47 +386,49 @@ const data = {
       img: bg30,
     },
     {
-      name: "Flaming Skulls",
+      name: "Evil",
       img: bg31,
     },
     {
-      name: "Green Nightmare",
+      name: "Flaming Skulls",
       img: bg32,
     },
     {
-      name: "Green Sketch",
+      name: "Green Nightmare",
+
       img: bg33,
     },
     {
-      name: "Grey Haze",
+      name: "Green Sketch",
+
       img: bg34,
     },
     {
-      name: "Grey Sketch",
+      name: "Grey Haze",
+
       img: bg35,
     },
     {
-      name: "Guiding Light",
+      name: "Grey Sketch",
+
       img: bg36,
     },
     {
-      name: "Joker Steps",
+      name: "Guiding Light",
+
       img: bg37,
     },
+    { name: "Joker Steps", img: bg38 },
     {
       name: "Kaleido Purple",
-      img: bg38,
-    },
-    {
-      name: "Light Blue Sketch",
       img: bg39,
     },
     {
-      name: "Ocean View",
+      name: "Light Blue Sketch",
       img: bg40,
     },
     {
-      name: "White",
+      name: "Ocean View",
       img: bg41,
     },
     {
